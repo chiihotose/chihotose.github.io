@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ちいほとせ | ワクワクをカタチに。おとぎ話を世界に。</title>
+    <meta name="description" content="想像から生まれたアイデアを、絵本・ぬりえ・漫画・動画・音楽・研究など、さまざまな形でお届けしているクリエイティブスタジオ「ちいほとせ」の公式サイトです。">
+    <!-- Google Fonts: Zen Maru Gothic & Shippori Mincho -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- styles.css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="site-header" id="site-header">
+        <div class="header-container">
+            <a href="#" class="header-logo" aria-label="ちいほとせ ホーム">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3C8.5 6 4 10 4 14C4 17.5 7 20 10.5 20C13 20 15 18.5 16 17C17.5 19 19.5 20 21.5 20C22.5 18 22 15 20.5 13C19 11 15 5 12 3Z" stroke="#8FA960" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 3V20" stroke="#8FA960" stroke-width="1.5" stroke-dasharray="2 2"/>
+                    <path d="M7 11C7 11 8.5 10 10 11.5" stroke="#8FA960" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M14 8C14 8 16 7 17.5 9" stroke="#8FA960" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-main">ちいほとせ</span>
+                    <span class="logo-sub">chiihotose</span>
+                </div>
+            </a>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="メニューを開閉する">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <nav class="header-nav" id="primary-navigation">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-link active">ホーム</a></li>
+                    <li><a href="atelier.html" class="nav-link">アトリエちいほとせ</a></li>
+                    <li><a href="web.html" class="nav-link">ホームページ制作</a></li>
+                    <li><a href="https://aru-ics.github.io/github.io/" class="nav-link" target="_blank" rel="noopener noreferrer">統合意識学</a></li>
+                    <li><a href="#about" class="nav-link">ちいほとせについて</a></li>
+                    <li><a href="#news" class="nav-link">お知らせ</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="mailto:chiihotose@gmail.com" class="btn btn-contact">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>お問い合わせ</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ヒーローセクション -->
+        <section class="hero-section hero-fullwidth">
+            <div class="hero-bg-wrapper">
+                <img src="assets/hero_watercolor_window.png" alt="虹と窓辺の水彩画イラスト" class="hero-bg-img">
+                <div class="hero-overlay-content">
+                    <h1 class="hero-title">
+                        <span class="title-line">ワクワクをカタチに。</span>
+                        <span class="title-line text-blue">おとぎ話を世界に。</span>
+                    </h1>
+                    <p class="hero-subtext">
+                        想像から生まれたアイデアを、<br>
+                        絵本・ぬりえ・動画・研究・ホームページ制作など、<br>
+                        さまざまな形でお届けしています。
+                    </p>
+                    <div class="scroll-indicator">
+                        <span class="scroll-text">SCROLL</span>
+                        <svg class="scroll-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- サービスカードセクション -->
+        <section class="services-section">
+            <div class="section-container">
+                <h2 class="section-title">
+                    <svg class="title-leaf leaf-left" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M2 21C2 21 6 18 10 16C12 15 15 15.5 17 17C18.5 18 20 17.5 21 16C22.5 13.5 21 9 17 6C14.5 4 10 4 7 6C4.5 7.5 3.5 10.5 4.5 13C5.5 15 5 18 2 21Z"/></svg>
+                    <span>こんなことをしています</span>
+                    <svg class="title-leaf leaf-right" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M22 21C22 21 18 18 14 16C12 15 9 15.5 7 17C5.5 18 4 17.5 3 16C1.5 13.5 3 9 7 6C9.5 4 14 4 17 6C19.5 7.5 20.5 10.5 19.5 13C18.5 15 19 18 22 21Z"/></svg>
+                </h2>
+
+                <div class="services-grid">
+                    <!-- カード 1: アトリエちいほとせ -->
+                    <a href="atelier.html" class="service-card card-atelier">
+                        <div class="card-icon-wrapper circle-green">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 14.7255 3.09032 17.1962 4.85857 19M12 22C11.3323 22 10.4284 21.0541 10.222 19.5857C10.027 18.2001 10.5843 17 11.5 17C12.4157 17 13.0805 15.7999 12.8856 14.4143C12.6791 12.9459 11.4589 12 10.7912 12C9.5 12 9.5 10.5 10.5 10.5C11.5 10.5 12 9.5 11.5 8.5C11 7.5 12 6.5 13.5 6.5C15 6.5 16 7.5 16.5 9C17 10.5 18.5 11.5 20 11.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <circle cx="7.5" cy="10.5" r="1.5" fill="currentColor"/>
+                                <circle cx="11.5" cy="7.5" r="1.5" fill="currentColor"/>
+                                <circle cx="15.5" cy="9.5" r="1.5" fill="currentColor"/>
+                                <circle cx="17.5" cy="13.5" r="1.5" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="card-image-container">
+                            <img src="assets/atelier_image_only.png" alt="アトリエちいほとせのイラスト" class="card-img">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-green">アトリエちいほとせ</h3>
+                            <p class="card-description">絵本・ぬりえ・漫画・動画・音楽など、<br>ワクワクする作品を生み出しています。</p>
+                            <div class="card-btn btn-atelier-border">
+                                <span>詳しく見る</span>
+                                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- カード 2: ホームページ制作 -->
+                    <a href="web.html" class="service-card card-web">
+                        <div class="card-icon-wrapper circle-blue">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="3" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 21H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 17V21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 7H10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                <circle cx="18" cy="7" r="1" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="card-image-container">
+                            <img src="assets/web_image_only.png" alt="ホームページ制作のイラスト" class="card-img">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-blue">ホームページ制作</h3>
+                            <p class="card-description">小規模事業者さま向けに、<br>やさしく、わかりやすいホームページを<br>制作しています。</p>
+                            <div class="card-btn btn-web-border">
+                                <span>詳しく見る</span>
+                                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- カード 3: 統合意識学 -->
+                    <a href="https://aru-ics.github.io/github.io/" class="service-card card-ics" target="_blank" rel="noopener noreferrer">
+                        <div class="card-icon-wrapper circle-purple">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 22C12 22 20 18 20 12C20 8 18 5 15 3.5C13.5 2.5 12 2 12 2C12 2 10.5 2.5 9 3.5C6 5 4 8 4 12C4 18 12 22 12 22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 2V22" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2 2"/>
+                                <circle cx="12" cy="7" r="2" fill="currentColor"/>
+                                <circle cx="8" cy="12" r="1.5" fill="currentColor"/>
+                                <circle cx="16" cy="12" r="1.5" fill="currentColor"/>
+                                <path d="M8 12.5C9.5 14 10.5 15 12 15C13.5 15 14.5 14 16 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="card-image-container">
+                            <img src="assets/ics_image_only.png" alt="統合意識学をイメージした木のイラスト" class="card-img">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title text-purple">統合意識学</h3>
+                            <p class="card-description">意識の在り方をシンプルにお伝えし、<br>自分らしく生きるヒントをお届けします。</p>
+                            <div class="card-btn btn-ics-border">
+                                <span>詳しく見る</span>
+                                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <p class="services-footer-text">
+                    <svg class="inline-leaf" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M2 21C2 21 6 18 10 16C12 15 15 15.5 17 17C18.5 18 20 17.5 21 16C22.5 13.5 21 9 17 6C14.5 4 10 4 7 6C4.5 7.5 3.5 10.5 4.5 13C5.5 15 5 18 2 21Z"/></svg>
+                    <span>小さなひらめきが、誰かの笑顔につながりますように。</span>
+                    <svg class="inline-leaf" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M22 21C22 21 18 18 14 16C12 15 9 15.5 7 17C5.5 18 4 17.5 3 16C1.5 13.5 3 9 7 6C9.5 4 14 4 17 6C19.5 7.5 20.5 10.5 19.5 13C18.5 15 19 18 22 21Z"/></svg>
+                </p>
+            </div>
+        </section>
+
+        <!-- コンセプトセクション -->
+        <section class="concept-section">
+            <div class="section-container">
+                <div class="concept-layout">
+                    <div class="concept-left">
+                        <h2 class="concept-section-title">
+                            ちいほとせの<br>
+                            <span class="highlight-num">5</span>つのコンセプト
+                        </h2>
+                    </div>
+                    <div class="concept-right">
+                        <div class="concept-flow">
+                            <!-- コンセプト 1 -->
+                            <div class="concept-node">
+                                <div class="concept-icon-circle bg-yellow">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="concept-svg">
+                                        <path d="M15 14C16 13 17 11.5 17 10C17 7.2 14.8 5 12 5C9.2 5 7 7.2 7 10C7 11.5 8 13 9 14C9.8 14.8 10 16 10 17H14C14 16 14.2 14.8 15 14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9 20H15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 2V3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                        <path d="M12 21V22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                    </svg>
+                                </div>
+                                <h4 class="concept-node-title">創造する</h4>
+                                <p class="concept-node-desc">想像をカタチに</p>
+                            </div>
+
+                            <div class="concept-arrow">
+                                <svg class="dotted-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L15 8M19 12L15 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+                                </svg>
+                            </div>
+
+                            <!-- コンセプト 2 -->
+                            <div class="concept-node">
+                                <div class="concept-icon-circle bg-pink">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="concept-svg">
+                                        <path d="M12 21.35L10.55 20.03C5.4 15.36 2 12.28 2 8.5C2 5.42 4.42 3 7.5 3C9.24 3 10.91 3.81 12 5.09C13.09 3.81 14.76 3 16.5 3C19.58 3 22 5.42 22 8.5C22 12.28 18.6 15.36 13.45 20.04L12 21.35Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h4 class="concept-node-title">やさしさ</h4>
+                                <p class="concept-node-desc">人に寄り添う作品を</p>
+                            </div>
+
+                            <div class="concept-arrow">
+                                <svg class="dotted-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L15 8M19 12L15 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+                                </svg>
+                            </div>
+
+                            <!-- コンセプト 3 -->
+                            <div class="concept-node">
+                                <div class="concept-icon-circle bg-green">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="concept-svg">
+                                        <path d="M12 10C12 10 12 6 8 4M12 10C12 10 12 6 16 4M12 10V21M12 10C9 12 7 15 7 18M12 10C15 12 17 15 17 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h4 class="concept-node-title">つながり</h4>
+                                <p class="concept-node-desc">人と人をつなぐ</p>
+                            </div>
+
+                            <div class="concept-arrow">
+                                <svg class="dotted-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L15 8M19 12L15 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+                                </svg>
+                            </div>
+
+                            <!-- コンセプト 4 -->
+                            <div class="concept-node">
+                                <div class="concept-icon-circle bg-lightyellow">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="concept-svg">
+                                        <path d="M12 2L14.8 8.6L22 9.2L16.5 13.8L18.2 20.8L12 17L5.8 20.8L7.5 13.8L2 9.2L9.2 8.6L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h4 class="concept-node-title">ワクワク</h4>
+                                <p class="concept-node-desc">心が動く体験を</p>
+                            </div>
+
+                            <div class="concept-arrow">
+                                <svg class="dotted-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L15 8M19 12L15 16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3 3"/>
+                                </svg>
+                            </div>
+
+                            <!-- コンセプト 5 -->
+                            <div class="concept-node">
+                                <div class="concept-icon-circle bg-blue">
+                                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="concept-svg">
+                                        <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12 2C14.5 4.5 15 8.5 15 12C15 15.5 14.5 19.5 12 22C9.5 19.5 9 15.5 9 12C9 8.5 9.5 4.5 12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M2 12H22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h4 class="concept-node-title">世界へ</h4>
+                                <p class="concept-node-desc">おとぎ話を世界に</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- お知らせ ＆ ちいほとせについて セクション -->
+        <section class="info-section">
+            <div class="section-container grid-two-columns">
+                <!-- お知らせ -->
+                <div class="news-column" id="news">
+                    <div class="column-header">
+                        <h3 class="column-title">
+                            <svg class="title-butterfly" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 6C4 6 5.5 3 8 3C10.5 3 11 5.5 11 7C11 9 9.5 11 7.5 11C6.5 11 5.5 10 5.5 10C5.5 10 5 11.5 5 13C5 15 6 16 7 16C8 16 9 14.5 9 14.5C9 14.5 10 16 11 16.5C12 17 13.5 16 13.5 16C13.5 16 13 14.5 13 13C13 11.5 13.5 10 13.5 10C13.5 10 14.5 11 15.5 11C17.5 11 19 9 19 7C19 5.5 18.5 3 16 3C13.5 3 12 6 12 6C12 6 11.5 8 11.5 9.5C11.5 8 11 6 11 6Z"/>
+                            </svg>
+                            <span>お知らせ</span>
+                        </h3>
+                        <a href="#" class="btn-more-link">一覧を見る →</a>
+                    </div>
+                    <ul class="news-list">
+                        <li class="news-item">
+                            <span class="news-date">2025.05.12</span>
+                            <span class="news-text">絵本「空の追いかけっこ」を公開しました</span>
+                        </li>
+                        <li class="news-item">
+                            <span class="news-date">2025.05.01</span>
+                            <span class="news-text">ぬりえ「クモのかくれんぼ」を追加しました</span>
+                        </li>
+                        <li class="news-item">
+                            <span class="news-date">2025.04.20</span>
+                            <span class="news-text">YouTubeチャンネルを更新しました</span>
+                        </li>
+                    </ul>
+                    <div class="news-illustration">
+                        <img src="assets/fox_under_tree.png" alt="木の下に佇むキツネのイラスト" class="fox-tree-img">
+                    </div>
+                </div>
+
+                <!-- ちいほとせについて -->
+                <div class="about-column" id="about">
+                    <div class="about-card-paper">
+                        <div class="about-card-inner">
+                            <h3 class="about-card-title">
+                                <span>ちいほとせについて</span>
+                                <svg class="inline-leaf-mini" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M2 21C2 21 6 18 10 16C12 15 15 15.5 17 17C18.5 18 20 17.5 21 16C22.5 13.5 21 9 17 6C14.5 4 10 4 7 6C4.5 7.5 3.5 10.5 4.5 13C5.5 15 5 18 2 21Z"/></svg>
+                            </h3>
+                            <p class="about-card-text">
+                                ちいほとせの想い・プロフィール・活動のあゆみなどをご紹介しています。
+                            </p>
+                            <a href="#" class="about-card-btn">
+                                <span>詳しく見る</span>
+                                <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="site-footer">
+        <div class="footer-flower-border"></div>
+        <div class="footer-container">
+            <div class="footer-columns">
+                <!-- 左: SNS情報 -->
+                <div class="footer-column footer-sns-col">
+                    <h4 class="footer-title">SNS・チャンネル</h4>
+                    <div class="sns-icons">
+                        <!-- YouTube -->
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn yt" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.517 0-9.388.502a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.871.502 9.388.502 9.388.502s7.518 0 9.388-.502a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn ig" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <!-- X (Twitter) -->
+                        <a href="https://twitter.com/chiihotose" target="_blank" rel="noopener noreferrer" class="sns-icon-btn x" aria-label="X (旧Twitter)">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <!-- LINE -->
+                        <a href="https://line.me/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn line" aria-label="LINE">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.121.303.079.778.039 1.084l-.171 1.027c-.053.303-.251 1.185 1.083.645 1.333-.54 7.185-4.225 9.805-7.236 2.05-2.28 3.15-4.568 3.15-6.953zm-15.908 2.65h-2.146c-.365 0-.661-.296-.661-.661V7.747c0-.365.296-.661.661-.661h2.146c.365 0 .661.296.661.661v.564c0 .365-.296.661-.661.661H9.138v.827h1.613c.365 0 .661.296.661.661v.564c0 .365-.296.661-.661.661H9.138v.892h1.613c.365 0 .661.296.661.661v.564c0 .366-.296.662-.661.662zm4.333 0c-.365 0-.661-.296-.661-.661V7.747c0-.365.296-.661.661-.661h.564c.365 0 .661.296.661.661v3.932c0 .365-.296.661-.661.661h-.564zm4.846 0h-.564c-.234 0-.448-.124-.564-.325l-2.023-3.41v3.074c0 .365-.296.661-.661.661h-.564c-.365 0-.661-.296-.661-.661V7.747c0-.234.124-.448.325-.564.201-.116.45-.112.645.011l2.25 1.776V7.747c0-.365.296-.661.661-.661h.564c.365 0 .661.296.661.661v4.596c0 .365-.296.661-.661.661zm4.846-1.503h-1.613v-.827h1.613c.365 0 .661-.296.661-.661V9.401c0-.365-.296-.661-.661-.661h-1.613v-.827h1.613c.365 0 .661-.296.661-.661v-.564c0-.365-.296-.661-.661-.661h-2.842c-.365 0-.661.296-.661.661v4.596c0 .365.296.661.661.661h2.842c.365 0 .661-.296.661-.661v-.564c0-.365-.296-.661-.661-.661z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 中: リンク (サイトマップ) -->
+                <div class="footer-column footer-links-col">
+                    <h4 class="footer-title">リンク</h4>
+                    <div class="footer-links-grid">
+                        <ul class="footer-links-list">
+                            <li><a href="index.html">ホーム</a></li>
+                            <li><a href="atelier.html">アトリエちいほとせ</a></li>
+                            <li><a href="web.html">ホームページ制作</a></li>
+                            <li><a href="https://aru-ics.github.io/github.io/">統合意識学</a></li>
+                        </ul>
+                        <ul class="footer-links-list">
+                            <li><a href="mailto:chiihotose@gmail.com">お問い合わせ</a></li>
+                            <li><a href="privacy.html">プライバシーポリシー</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 右: お問い合わせ -->
+                <div class="footer-column footer-contact-col" id="contact">
+                    <h4 class="footer-title">お問い合わせ</h4>
+                    <p class="footer-contact-text">お仕事のご依頼・ご相談はこちらから。</p>
+                    <div class="footer-cta-wrapper">
+                        <a href="mailto:chiihotose@gmail.com" class="btn btn-contact btn-footer-contact">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>お問い合わせ</span>
+                        </a>
+                        <div class="rabbit-illustration">
+                            <img src="assets/rabbit_flowers.png" alt="草むらに座るウサギのイラスト" class="rabbit-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- コピーライト -->
+            <div class="footer-bottom">
+                <p class="copyright">&copy; Chiihotose &nbsp;|
+                    <a href="privacy.html" class="privacy-link">プライバシーポリシー</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu & Header Scroll effect -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById('site-header');
+            const mobileToggle = document.querySelector('.mobile-nav-toggle');
+            const primaryNav = document.getElementById('primary-navigation');
+
+            // 1. スクロール時のヘッダー背景色切り替え
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+
+            // 2. モバイルナビゲーションの開閉
+            mobileToggle.addEventListener('click', () => {
+                const isExpanded = mobileToggle.getAttribute('aria-expanded') === 'true';
+                mobileToggle.setAttribute('aria-expanded', !isExpanded);
+                primaryNav.classList.toggle('open');
+                document.body.classList.toggle('no-scroll');
+            });
+
+            // 3. ナビゲーションリンクをクリックしたときにモバイルメニューを閉じる
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileToggle.setAttribute('aria-expanded', 'false');
+                    primaryNav.classList.remove('open');
+                    document.body.classList.remove('no-scroll');
+                });
+            });
+        });
+    </script>
+</body>
+</html>

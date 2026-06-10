@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー | ちいほとせ</title>
+    <meta name="description" content="ちいほとせのプライバシーポリシーページです。個人情報の取り扱いについてご説明しています。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* プライバシーページ固有スタイル */
+        .privacy-hero {
+            padding: 140px 24px 60px;
+            background: radial-gradient(circle at 10% 20%, rgba(244, 248, 243, 0.7) 0%, rgba(255, 253, 249, 1) 50%, rgba(242, 247, 249, 0.7) 100%);
+            text-align: center;
+        }
+        .privacy-hero-title {
+            font-family: 'Shippori Mincho', serif;
+            font-size: clamp(2rem, 4vw, 2.8rem);
+            font-weight: 700;
+            color: #4A3E3D;
+            letter-spacing: 0.1em;
+            margin-bottom: 12px;
+        }
+        .privacy-hero-sub {
+            font-size: 0.9rem;
+            color: #807270;
+            letter-spacing: 0.05em;
+        }
+        .privacy-main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px 100px;
+        }
+        .privacy-section {
+            margin-bottom: 48px;
+        }
+        .privacy-section h2 {
+            font-family: 'Zen Maru Gothic', sans-serif;
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #4A3E3D;
+            margin-bottom: 16px;
+            padding-left: 12px;
+            border-left: 3px solid #8FA960;
+            letter-spacing: 0.05em;
+        }
+        .privacy-section p,
+        .privacy-section li {
+            font-size: 0.95rem;
+            line-height: 2;
+            color: #807270;
+        }
+        .privacy-section ul {
+            padding-left: 1.5em;
+        }
+        .privacy-section li {
+            margin-bottom: 8px;
+        }
+        .privacy-contact-box {
+            background-color: #FFFDF9;
+            border: 1px solid rgba(143, 169, 96, 0.2);
+            border-radius: 16px;
+            padding: 32px;
+            margin-top: 16px;
+        }
+        .privacy-contact-box p {
+            margin-bottom: 8px;
+        }
+        .privacy-contact-box a {
+            color: #8FA960;
+            font-weight: 500;
+        }
+        .privacy-contact-box a:hover {
+            color: #6C8243;
+        }
+        .privacy-back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 28px;
+            border-radius: 30px;
+            background-color: #8FA960;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            box-shadow: 0 4px 12px rgba(143, 169, 96, 0.3);
+            margin-top: 48px;
+        }
+        .privacy-back-btn:hover {
+            background-color: #6C8243;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(143, 169, 96, 0.4);
+        }
+        .privacy-link {
+            color: #807270;
+            font-size: 0.85rem;
+        }
+        .privacy-link:hover {
+            color: #8FA960;
+        }
+        .divider {
+            border: none;
+            border-top: 1px dashed rgba(74, 62, 61, 0.1);
+            margin: 40px 0;
+        }
+        .updated-date {
+            font-size: 0.85rem;
+            color: #807270;
+            text-align: right;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="site-header" id="site-header">
+        <div class="header-container">
+            <a href="index.html" class="header-logo" aria-label="ちいほとせ ホーム">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3C8.5 6 4 10 4 14C4 17.5 7 20 10.5 20C13 20 15 18.5 16 17C17.5 19 19.5 20 21.5 20C22.5 18 22 15 20.5 13C19 11 15 5 12 3Z" stroke="#8FA960" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 3V20" stroke="#8FA960" stroke-width="1.5" stroke-dasharray="2 2"/>
+                    <path d="M7 11C7 11 8.5 10 10 11.5" stroke="#8FA960" stroke-width="1.5" stroke-linecap="round"/>
+                    <path d="M14 8C14 8 16 7 17.5 9" stroke="#8FA960" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-main">ちいほとせ</span>
+                    <span class="logo-sub">chiihotose</span>
+                </div>
+            </a>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="メニューを開閉する">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <nav class="header-nav" id="primary-navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li><a href="atelier.html" class="nav-link">アトリエちいほとせ</a></li>
+                    <li><a href="web.html" class="nav-link">ホームページ制作</a></li>
+                    <li><a href="https://aru-ics.github.io/github.io/" class="nav-link" target="_blank" rel="noopener noreferrer">統合意識学</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="mailto:chiihotose@gmail.com" class="btn btn-contact">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>お問い合わせ</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ヒーロー -->
+        <div class="privacy-hero">
+            <h1 class="privacy-hero-title">プライバシーポリシー</h1>
+            <p class="privacy-hero-sub">Privacy Policy</p>
+        </div>
+
+        <!-- 本文 -->
+        <div class="privacy-main">
+            <p class="updated-date">最終更新日：2025年6月</p>
+
+            <div class="privacy-section">
+                <p>ちいほとせ（以下「当サイト」）は、ご利用いただく皆さまの個人情報の保護を重要と考え、以下のとおりプライバシーポリシーを定めます。</p>
+            </div>
+
+            <hr class="divider">
+
+            <!-- 1. 個人情報の利用目的 -->
+            <div class="privacy-section">
+                <h2>1. 個人情報の利用目的</h2>
+                <p>当サイトでは、お問い合わせの際にお名前・メールアドレスなどの個人情報をご提供いただく場合があります。<br>
+                いただいた個人情報は、以下の目的のみに使用いたします。</p>
+                <ul>
+                    <li>お問い合わせへの回答・連絡のため</li>
+                    <li>お仕事のご依頼・ご相談への対応のため</li>
+                    <li>サービスに関する重要なご連絡のため</li>
+                </ul>
+            </div>
+
+            <!-- 2. お問い合わせ時の情報管理 -->
+            <div class="privacy-section">
+                <h2>2. お問い合わせ時の情報管理</h2>
+                <p>お問い合わせいただいた際にご提供いただいた個人情報は、適切に管理いたします。<br>
+                お問い合わせへの対応が完了した後は、不要となった個人情報を速やかに削除いたします。</p>
+            </div>
+
+            <!-- 3. 第三者への情報提供 -->
+            <div class="privacy-section">
+                <h2>3. 第三者への情報提供について</h2>
+                <p>当サイトは、以下の場合を除き、取得した個人情報を第三者へ提供・開示することはいたしません。</p>
+                <ul>
+                    <li>ご本人の同意がある場合</li>
+                    <li>法令に基づき開示が必要な場合</li>
+                    <li>生命・財産の保護のために必要な場合</li>
+                </ul>
+            </div>
+
+            <!-- 4. アクセス解析 -->
+            <div class="privacy-section">
+                <h2>4. アクセス解析について</h2>
+                <p>当サイトでは、サイトの改善を目的として、アクセス解析ツールを使用する場合があります。<br>
+                アクセス解析ツールはCookieを使用して情報を収集しますが、個人を特定する情報は収集しません。<br>
+                Cookieの使用はブラウザの設定により無効にすることができます。</p>
+            </div>
+
+            <!-- 5. 免責事項 -->
+            <div class="privacy-section">
+                <h2>5. 免責事項</h2>
+                <p>当サイトのコンテンツは可能な限り正確な情報を提供するよう努めておりますが、正確性・安全性を保証するものではありません。<br>
+                当サイトのご利用によって生じたいかなる損害についても、当サイトは一切の責任を負いかねますのであらかじめご了承ください。<br>
+                また、当サイトからリンクしている外部サイトに関しては、当サイトの管理下になく、内容について責任を負いかねます。</p>
+            </div>
+
+            <!-- 6. 著作権 -->
+            <div class="privacy-section">
+                <h2>6. 著作権について</h2>
+                <p>当サイトに掲載されているテキスト・画像・イラスト・動画などすべてのコンテンツの著作権は、ちいほとせに帰属します。<br>
+                無断での転載・複製・改変・二次利用はお断りしております。<br>
+                コンテンツの使用をご希望の場合は、事前にお問い合わせください。</p>
+            </div>
+
+            <!-- 7. お問い合わせ先 -->
+            <div class="privacy-section">
+                <h2>7. お問い合わせ先</h2>
+                <p>プライバシーポリシーに関するご質問・ご意見は、下記よりお気軽にお問い合わせください。</p>
+                <div class="privacy-contact-box">
+                    <p><strong>ちいほとせ</strong></p>
+                    <p>メールアドレス：<a href="mailto:chiihotose@gmail.com">chiihotose@gmail.com</a></p>
+                </div>
+            </div>
+
+            <hr class="divider">
+
+            <div style="text-align: center;">
+                <a href="index.html" class="privacy-back-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19 12H5M5 12L12 19M5 12L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    トップページに戻る
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="site-footer">
+        <div class="footer-flower-border"></div>
+        <div class="footer-container">
+            <div class="footer-columns">
+                <div class="footer-column footer-sns-col">
+                    <h4 class="footer-title">SNS・チャンネル</h4>
+                    <div class="sns-icons">
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn yt" aria-label="YouTube">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.518 3.5 12 3.5 12 3.5s-7.517 0-9.388.502a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.871.502 9.388.502 9.388.502s7.518 0 9.388-.502a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn ig" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/chiihotose" target="_blank" rel="noopener noreferrer" class="sns-icon-btn x" aria-label="X (旧Twitter)">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+                            </svg>
+                        </a>
+                        <a href="https://line.me/" target="_blank" rel="noopener noreferrer" class="sns-icon-btn line" aria-label="LINE">
+                            <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.121.303.079.778.039 1.084l-.171 1.027c-.053.303-.251 1.185 1.083.645 1.333-.54 7.185-4.225 9.805-7.236 2.05-2.28 3.15-4.568 3.15-6.953zm-15.908 2.65h-2.146c-.365 0-.661-.296-.661-.661V7.747c0-.365.296-.661.661-.661h2.146c.365 0 .661.296.661.661v.564c0 .365-.296.661-.661.661H9.138v.827h1.613c.365 0 .661.296.661.661v.564c0 .365-.296.661-.661.661H9.138v.892h1.613c.365 0 .661.296.661.661v.564c0 .366-.296.662-.661.662zm4.333 0c-.365 0-.661-.296-.661-.661V7.747c0-.365.296-.661.661-.661h.564c.365 0 .661.296.661.661v3.932c0 .365-.296.661-.661.661h-.564zm4.846 0h-.564c-.234 0-.448-.124-.564-.325l-2.023-3.41v3.074c0 .365-.296.661-.661.661h-.564c-.365 0-.661-.296-.661-.661V7.747c0-.234.124-.448.325-.564.201-.116.45-.112.645.011l2.25 1.776V7.747c0-.365.296-.661.661-.661h.564c.365 0 .661.296.661.661v4.596c0 .365-.296.661-.661.661zm4.846-1.503h-1.613v-.827h1.613c.365 0 .661-.296.661-.661V9.401c0-.365-.296-.661-.661-.661h-1.613v-.827h1.613c.365 0 .661-.296.661-.661v-.564c0-.365-.296-.661-.661-.661h-2.842c-.365 0-.661.296-.661.661v4.596c0 .365.296.661.661.661h2.842c.365 0 .661-.296.661-.661v-.564c0-.365-.296-.661-.661-.661z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column footer-links-col">
+                    <h4 class="footer-title">リンク</h4>
+                    <div class="footer-links-grid">
+                        <ul class="footer-links-list">
+                            <li><a href="index.html">ホーム</a></li>
+                            <li><a href="atelier.html">アトリエちいほとせ</a></li>
+                            <li><a href="web.html">ホームページ制作</a></li>
+                            <li><a href="https://aru-ics.github.io/github.io/">統合意識学</a></li>
+                        </ul>
+                        <ul class="footer-links-list">
+                            <li><a href="mailto:chiihotose@gmail.com">お問い合わせ</a></li>
+                            <li><a href="privacy.html">プライバシーポリシー</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-column footer-contact-col">
+                    <h4 class="footer-title">お問い合わせ</h4>
+                    <p class="footer-contact-text">お仕事のご依頼・ご相談はこちらから。</p>
+                    <div class="footer-cta-wrapper">
+                        <a href="mailto:chiihotose@gmail.com" class="btn btn-contact btn-footer-contact">
+                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <span>お問い合わせ</span>
+                        </a>
+                        <div class="rabbit-illustration">
+                            <img src="assets/rabbit_flowers.png" alt="草むらに座るウサギのイラスト" class="rabbit-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; Chiihotose &nbsp;|
+                    <a href="privacy.html" class="privacy-link">プライバシーポリシー</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById('site-header');
+            const mobileToggle = document.querySelector('.mobile-nav-toggle');
+            const primaryNav = document.getElementById('primary-navigation');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    header.classList.add('scrolled');
+                } else {
+                    header.classList.remove('scrolled');
+                }
+            });
+            mobileToggle.addEventListener('click', () => {
+                const isExpanded = mobileToggle.getAttribute('aria-expanded') === 'true';
+                mobileToggle.setAttribute('aria-expanded', !isExpanded);
+                primaryNav.classList.toggle('open');
+                document.body.classList.toggle('no-scroll');
+            });
+        });
+    </script>
+</body>
+</html>
