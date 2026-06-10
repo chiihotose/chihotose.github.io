@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
@@ -45,6 +46,7 @@
   gap: 14px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 20px;
 }
 .simple-button {
   display: inline-block;
@@ -56,49 +58,120 @@
   box-shadow: 0 8px 24px rgba(90, 80, 60, 0.12);
   font-weight: 700;
 }
+.series-title {
+  margin-top: 50px;
+  color: #5f6f4a;
+}
 </style>
-</head><body>
+
+</head>
+
+<body>
+
 <header class="site-header" id="site-header">
   <div class="header-container">
-    <a href="index.html" class="header-logo" aria-label="ちいほとせ ホーム">
+    <a href="index.html" class="header-logo">
       <div class="logo-text">
         <span class="logo-main">ちいほとせ</span>
         <span class="logo-sub">chiihotose</span>
       </div>
     </a>
-    <nav class="header-nav" id="primary-navigation">
-      <ul class="nav-list">
-        <li><a href="index.html" class="nav-link">ホーム</a></li>
-        <li><a href="atelier.html" class="nav-link">アトリエちいほとせ</a></li>
-        <li><a href="web.html" class="nav-link">ホームページ制作</a></li>
-        <li><a href="https://aru-ics.github.io/github.io/" class="nav-link">統合意識学</a></li>
-        <li><a href="about.html" class="nav-link">ちいほとせについて</a></li>
-      </ul>
-    </nav>
-    <div class="header-cta">
-      <a href="mailto:chiihotose@gmail.com" class="btn btn-contact">お問い合わせ</a>
-    </div>
+
+```
+<nav class="header-nav">
+  <ul class="nav-list">
+    <li><a href="index.html" class="nav-link">ホーム</a></li>
+    <li><a href="atelier.html" class="nav-link">アトリエちいほとせ</a></li>
+    <li><a href="web.html" class="nav-link">ホームページ制作</a></li>
+    <li><a href="https://aru-ics.github.io/github.io/" class="nav-link">統合意識学</a></li>
+    <li><a href="about.html" class="nav-link">ちいほとせについて</a></li>
+  </ul>
+</nav>
+
+<div class="header-cta">
+  <a href="mailto:chiihotose@gmail.com" class="btn btn-contact">お問い合わせ</a>
+</div>
+```
+
   </div>
 </header>
 
 <main class="simple-page">
+
   <div class="simple-wrap">
-    <h1>アトリエちいほとせ</h1>
-    <p>絵本・ぬりえ・漫画・動画・音楽など、ワクワクする作品を生み出しています。</p>
-    <img src="assets/atelier_page.png" alt="アトリエちいほとせ" class="simple-main-image">
-    <div class="simple-buttons">
-      <a href="index.html" class="simple-button">トップへ戻る</a>
-      <a href="mailto:chiihotose@gmail.com" class="simple-button">お問い合わせ</a>
-    </div>
+
+```
+<h1>アトリエちいほとせ</h1>
+
+<p>
+  絵本・ぬりえ・漫画・動画・音楽など、
+  ワクワクする作品を生み出しています。
+</p>
+
+<img src="assets/atelier_page.png"
+     alt="アトリエちいほとせ"
+     class="simple-main-image">
+
+<h2 class="series-title">人外シリーズ</h2>
+
+<p>
+  人間の世界の向こう側に広がる、
+  不思議で美しい住人たちの物語。
+</p>
+
+<div class="simple-buttons">
+
+  <a href="https://youtu.be/vnYf-RVk_Js"
+     target="_blank"
+     class="simple-button">
+     🎬 YouTubeで見る
+  </a>
+
+  <a href="https://amzn.to/4eg0dKM"
+     target="_blank"
+     class="simple-button">
+     📖 絵本を見る
+  </a>
+
+  <a href="https://amzn.to/49MYawm"
+     target="_blank"
+     class="simple-button">
+     🎨 ぬりえを見る
+  </a>
+
+</div>
+
+<div class="simple-buttons">
+
+  <a href="index.html"
+     class="simple-button">
+     トップへ戻る
+  </a>
+
+  <a href="mailto:chiihotose@gmail.com"
+     class="simple-button">
+     お問い合わせ
+  </a>
+
+</div>
+```
+
   </div>
+
 </main>
 
 <footer class="site-footer">
   <div class="footer-container">
     <div class="footer-bottom">
-      <p class="copyright">&copy; Chiihotose | <a href="privacy.html" class="privacy-link">プライバシーポリシー</a></p>
+      <p class="copyright">
+        &copy; Chiihotose |
+        <a href="privacy.html" class="privacy-link">
+          プライバシーポリシー
+        </a>
+      </p>
     </div>
   </div>
 </footer>
+
 </body>
 </html>
