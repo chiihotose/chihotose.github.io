@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ちいほとせについて | ちいほとせ</title>
+    <meta name="description" content="ちいほとせについて。ワクワクをカタチに。おとぎ話を世界に。">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;700&family=Zen+Maru+Gothic:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .about-image-page {
+            padding: 110px 20px 70px;
+            background: linear-gradient(180deg, #fffaf2 0%, #fffdf8 55%, #f5fbf7 100%);
+        }
+        .about-image-wrap {
+            max-width: 1120px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .about-image-wrap h1 {
+            font-family: "Shippori Mincho", serif;
+            color: #5f6f4a;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            margin-bottom: 24px;
+        }
+        .about-main-image {
+            width: 100%;
+            max-width: 1000px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 28px;
+            box-shadow: 0 18px 45px rgba(90, 80, 60, 0.16);
+        }
+        .about-back-link {
+            display: inline-block;
+            margin-top: 28px;
+            padding: 12px 24px;
+            border-radius: 999px;
+            background: #ffffff;
+            color: #5f6f4a;
+            text-decoration: none;
+            box-shadow: 0 8px 24px rgba(90, 80, 60, 0.12);
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header" id="site-header">
+        <div class="header-container">
+            <a href="index.html" class="header-logo" aria-label="ちいほとせ ホーム">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 3C8.5 6 4 10 4 14C4 17.5 7 20 10.5 20C13 20 15 18.5 16 17C17.5 19 19.5 20 21.5 20C22.5 18 22 15 20.5 13C19 11 15 5 12 3Z" stroke="#8FA960" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M12 3V20" stroke="#8FA960" stroke-width="1.5" stroke-dasharray="2 2"/>
+                </svg>
+                <div class="logo-text">
+                    <span class="logo-main">ちいほとせ</span>
+                    <span class="logo-sub">chiihotose</span>
+                </div>
+            </a>
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="メニューを開閉する">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+            <nav class="header-nav" id="primary-navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">ホーム</a></li>
+                    <li><a href="atelier.html" class="nav-link">アトリエちいほとせ</a></li>
+                    <li><a href="web.html" class="nav-link">ホームページ制作</a></li>
+                    <li><a href="https://aru-ics.github.io/github.io/" class="nav-link" target="_blank" rel="noopener noreferrer">統合意識学</a></li>
+                    <li><a href="about.html" class="nav-link active">ちいほとせについて</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="mailto:chiihotose@gmail.com" class="btn btn-contact"><span>お問い合わせ</span></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-image-page">
+        <div class="about-image-wrap">
+            <h1>ちいほとせについて</h1>
+            <img src="assets/about_chiihotose.png" alt="ちいほとせについて" class="about-main-image">
+            <a href="index.html" class="about-back-link">トップページへ戻る</a>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-flower-border"></div>
+        <div class="footer-container">
+            <div class="footer-bottom">
+                <p class="copyright">&copy; Chiihotose &nbsp;|
+                    <a href="privacy.html" class="privacy-link">プライバシーポリシー</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const header = document.getElementById('site-header');
+            const mobileToggle = document.querySelector('.mobile-nav-toggle');
+            const primaryNav = document.getElementById('primary-navigation');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) header.classList.add('scrolled');
+                else header.classList.remove('scrolled');
+            });
+            if (mobileToggle && primaryNav) {
+                mobileToggle.addEventListener('click', () => {
+                    const isExpanded = mobileToggle.getAttribute('aria-expanded') === 'true';
+                    mobileToggle.setAttribute('aria-expanded', !isExpanded);
+                    primaryNav.classList.toggle('open');
+                    document.body.classList.toggle('no-scroll');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
